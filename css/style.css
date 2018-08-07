@@ -423,13 +423,13 @@ footer{
 
 
 	main .main__welcome{
-		padding: 700px 0 900px 0;
+		padding: 70% 0 90% 0;
 	}
 	main .main__welcome p{
 		font-size: 14px;
 	}
 	main .main__welcome h1{
-		font-size: 60px;
+		font-size: 25px;
 		margin-bottom: 30px;
 	}
 	.mw-100{
