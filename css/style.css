@@ -373,9 +373,10 @@ footer{
 		cursor: pointer;
 		float: right;
 		display: block;
-		margin-top: -17px;
-		color: #fcac45;
-		font-size: 25px;
+		margin-top: -40px;
+		color: #fff;
+		font-size: 30px;
+		padding-right: 20px;
 		margin-bottom: 20px;
 	}
 	nav{
@@ -393,7 +394,7 @@ footer{
 		cursor: pointer;
 		position: absolute;
 		top: -50px;
-		right: -150px;
+		right: -185px;
 	}
 	.topnav.responsive a{
 		float: none;
@@ -404,10 +405,10 @@ footer{
 		text-transform: uppercase;
 		color: #fff;
 		font-weight: 800;
-		font-size: 18px;
+		font-size: 22px;
 		cursor: pointer;
-		margin-top: 46px;
-		margin-left: 5%;
+		margin-top: 22px;
+		margin-left: 10%;
 	}
 	header nav .topnav a{
 		color: #fff;
