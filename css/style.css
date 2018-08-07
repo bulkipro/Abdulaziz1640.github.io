@@ -379,7 +379,7 @@ footer{
 		margin-bottom: 20px;
 	}
 	nav{
-		width: 100%;
+		width: 90%;
 	}
 	.topnav.responsive{
 		position: relative;
@@ -393,7 +393,7 @@ footer{
 		cursor: pointer;
 		position: absolute;
 		top: -50px;
-		right: -150px;
+		right: -200px;
 	}
 	.topnav.responsive a{
 		float: none;
@@ -415,6 +415,7 @@ footer{
 		padding: 12px 16px;
 		font-size: 20px;
 		font-weight: bold;
+		margin-left: 20px;
 	}
 
 
