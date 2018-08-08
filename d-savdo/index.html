@@ -3,6 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>D-savdo</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<script>
 	 	function calc(){
        	var price = parseInt(document.querySelector('#price').value);
@@ -122,6 +129,39 @@
 	 		border-radius: 5px;
 	 		border: 2px solid grey;
 		}
+		@media screen and (max-width: 1010px){
+			.form_inputs{
+	 		display: block;
+	 		padding: 100px auto;
+	 		margin-top: 50px;
+	 		}
+	 		form .form_input p {
+		 		margin-bottom: 10px;
+		 		margin-top: 20px;
+		 		color: #000;
+		 		font-size: 16px;
+		 		text-transform: uppercase;
+		 		font-weight: bold;
+	 		}
+	 		form{
+	 		display: block;
+	 		}
+			.form_button{
+				display: block;
+				justify-content: center;
+				margin-top: 50px;
+				margin-left: 25%;
+			}
+			.form_button input{
+				margin-left: 0;
+				margin-top: 20px;
+		 		width: 200px;
+		 		height: 50px;
+		 		font-size: 35px;
+		 		border-radius: 5px;
+		 		border: 2px solid grey;
+			}
+		}
 	 </style>
 </head>
 <body>
@@ -155,10 +195,10 @@
 
 	</div>
 	<div class="form_button">
-				<button type="button" onclick="calc()">Calculate</button> 
-				<h3>Биржадаги нарх:</h3>
-				<input type="text" id="birja_narx">
-			</div>
+		<button type="button" onclick="calc()">Calculate</button> 
+		<h3>Биржадаги нарх:</h3>
+		<input type="text" id="birja_narx">
+	</div>
 	<h1 id="result"></h1>
 	<h1 id="result_kol"></h1>
 	<h1 id="foyda"></h1>
