@@ -26,7 +26,7 @@
        	summa = (price * course) * ( 1 + (( nalog + obnal ) / 100)) + yolkira;
        	summakol = ( ( summa - yolkira ) + (yolkira / count) ) * count;
        	birja_dollar = ( birja_narx - ( ( ( nalog + obnal) / 100 ) * birja_narx ) - yolkira ) / course;
-       	foyda = birja_dollar - price;
+       	foyda = (birja_dollar - price) * count;
        	document.querySelector("#result").innerHTML ="Дона = " + summa + " сум";       	
        	document.querySelector("#result_kol").innerHTML = "Обший сумма = " + summakol + " сум";
        	if( foyda > 0){       	
